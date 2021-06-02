@@ -39,7 +39,8 @@ var startGame = function() {
     Game.setBoard(1,new Starfield(50,0.6,100));
     Game.setBoard(2,new Starfield(100,1.0,50));
   }  
-  Game.setBoard(3,new TitleScreen("Yesh Alien Invasion", 
+  Game.setBoard(3,new TitleScreen("Yesh Alien",
+                                  "Invasion", 
                                   "Press space to start playing",
                                   playGame));
 };
